@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  background-color: #3a3836;
+}
+html,
+body,
+#__next {
+  height: 100%;
+  width: 100%;
+  font-family: "Arima Madurai";
+}

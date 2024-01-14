@@ -1,0 +1,34 @@
+---
+interface Props {
+
+	src: string;
+}
+import { Image } from 'astro:assets';
+const { src } = Astro.props;
+import Button from './Utilities/Button.astro';
+---
+
+export const GuessImage = () = > {
+
+
+	return (
+		<div>
+
+<Image src={src} alt="A description of my image."  width="800" />
+
+		</div>
+	)
+}
+
+<Image src={src} alt="A description of my image."  width="800"
+  height="700" />
+	<Button
+		
+				title="Real"
+		
+			/>
+			<Button
+		
+				title="AI"
+			
+			/>
